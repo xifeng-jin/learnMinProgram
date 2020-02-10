@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array1: ['1.model保存数据', '2.view间听到的事件反监听', '3.dataBinding','4.DomListerner'],
+    array2: ['1.使用mina框架', '2.逻辑层（appService)','3.视图层（ view)']
   },
 
   /**

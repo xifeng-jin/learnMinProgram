@@ -1,3 +1,22 @@
 <!--pages/about/about.wxml-->
-<text class="title">hellow world!!!</text>
-<button size="mini">按钮</button>
+<!-- MVVM架构模式 -->
+<!-- 
+vue中的
+  1.model保存数据
+  2. view间听到的事件反监听
+  3.dataBinding
+  4.DomListerner
+小程序
+  1.使用mina框架
+  2.逻辑层（appService)
+  3.视图层（ view)
+命令式编程：原生操作DOM
+声明式编程：
+-->
+<view>
+  <view class="title1">vue中的</view>
+  <view wx:for="{{array1}}" class="list1">{{item}}</view>
+  <view class="title2">小程序</view>
+  <view wx:for="{{array2}}" class="list2">{{item}}</view>
+  <view class="foot">命令式编程：原生操作DOM;声明式编程：</view>
+</view>
