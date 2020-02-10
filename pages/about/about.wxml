@@ -1,3 +1,15 @@
 <!--pages/about/about.wxml-->
-<text class="title">hellow world!!!</text>
-<button size="mini">按钮</button>
+
+<!-- 小程序数据绑定 -->
+<view>hellow :{{name}}</view>
+<view>age:{{age*10}}</view>
+
+<!-- 列表渲染  wx:for item是自动生成的-->
+<!-- <view>{{students[0].name}}</view> -->
+<view wx:for="{{students}}">{{item.id}}-{{item.name}}</view>
+
+<!-- 监听事件 bindtap-->
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="addCounter">+</button>
+<button size="mini" bindtap="subtract">-</button>
+
