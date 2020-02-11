@@ -1,3 +1,47 @@
 <!--pages/about/about.wxml-->
-<text class="title">hellow world!!!</text>
-<button size="mini">按钮</button>
+<view class="separate">6.-----------------------------------------</view>
+<scroll-view class="container1" scroll-x>
+  <view wx:for="{{10}}" class="item">{{item}}</view>
+</scroll-view>
+
+<view class="separate">5.-----------------------------------------</view>
+<input value="武汉" bindinput="bindInput" bindfocus="bindFocus" bindblur="bindBlur"></input>
+<input password></input>
+<input confirm-type></input>
+
+<!-- 4.Text组件用于显示文本，类似于span   \n：换行   selectable:是否显示文本  space:ensp/emspn/bsp decode:是否解码-->
+<text selectable>你好小程序\n</text>
+<text space="ensp">hello world\n</text>
+<text space="nbsp">hello world\n</text>
+<text space="emsp">hello world\n</text>
+
+<text decode>5 &gt; 3\n</text>
+<view class="separate">4.-----------------------------------------</view>
+
+
+<!-- 3.button -->
+<button size="mini" type="warn">按钮\n</button>
+<button size="mini" plain>按钮2</button>
+<button size="mini" disabled="">按钮3</button>
+<button size="mini" loading>按钮4</button>
+<button hover-class="pressed">按钮5\n\n\n</button>
+<view class="separate">3.-----------------------------------------</view>
+
+<!-- 2.view -->
+<view class="container" hover-class="container-active">
+  <view hover-class="head-active" class="head" hover-stop-propagation>
+    <text>haha</text>
+  </view>
+</view>
+<view class="separate">2.-----------------------------------------</view>
+<!-- 1.image -->
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" ></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="aspectFit"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="aspectFill"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="top"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="right"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" mode="widthFix"></image>
+<view class="separate">1.-----------------------------------------</view>
+<!-- 1.拿到个人信息 -->
+<!-- <open-data type='userAvatarUrl' class='headStructure'></open-data> -->
+<!-- input -->
