@@ -8,3 +8,25 @@
   border: 1px solid blue;
   padding: 10px;
 }
+.separate {
+  margin: 20px 0;
+}
+.outer {
+  width: 200rpx;
+  height: 200px;
+  background-color: red;
+
+}
+.inner {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: green;
+}
+.container {
+  display: flex;
+}
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 5px
+}

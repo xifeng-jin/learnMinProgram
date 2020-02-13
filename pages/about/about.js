@@ -5,62 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    sports: ['篮球','羽毛球','乒乓球']
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  handleTap(event){
+    console.log(event)
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handleEventEnd(event) {
+    console.log('jjjj'  , event)
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  handleEventEnd2(event) {
+    console.log('hhhh', event)
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  handleInner(event) {
+    console.log('innder',event)
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  handleOuter(event) {
+    console.log('outer',event)
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  itemClick(event) {
+    console.log(event.currentTarget.dataset)
   }
 })

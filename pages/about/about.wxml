@@ -1,3 +1,29 @@
 <!--pages/about/about.wxml-->
+<view class="separate">事件语法------------------------------------</view>
+<button bindtap="handleTap">click1</button>
+<button bindtap="handleEventEnd2" bindtouchend="handleEventEnd">click2</button>
+
+<view class="outer" bindtap="handleOuter" id="outer">
+  <view class="inner" bindtap="handleInner" id="inner"></view>
+</view>
+
+<view class="container">
+  <block wx:for='{{sports}}' wx:key='index'>
+    <view class="item" bindtap="itemClick" data-item="{{item}}" data-index='{{index}}'>{{item}}</view>
+  </block>
+</view>
+
+<view class="separate">wxs语法------------------------------------</view>
+<wxs src='./info.wxs' module='info'/>
+<view>{{ info.message }}</view>
+<view>{{ info.name }}</view>
+<view>{{ info.sum(20,30) }}</view>
+<view class="separate">模版语法------------------------------------</view>
+<template name="contentItem">
+  <button size="mini">{{btnTex}}</button>
+  <view>{{content}}</view>
+</template>
+<template is="contentItem" data="{{btnTex: 'CLICK',content:'heihei'}}"/>
+<view class="separate">-------------------------------------------</view>
 <text class="title">hellow world!!!</text>
 <button size="mini">按钮</button>
