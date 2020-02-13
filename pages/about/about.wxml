@@ -1,3 +1,33 @@
 <!--pages/about/about.wxml-->
+<view class="separate">列表渲染语法-----------------------------</view>
+<view wx:for="{{['1','2','a','haha']}}" wx:key='{{index}}'>{{item}}--{{index}}</view>
+<!-- <block wx:for='{{nums}}' wx:for-item='inner_nums' wx:for='{{item}}'>
+  <block wx:for='{{inner_nums}}' wx:key='{{index}}'>
+    <view>{{item}}</view>
+  </block>
+</block> -->
+
+
+
+
+<view class="separate">条件判断语法-----------------------------</view>
+<view wx:if="{{isShow}}">haha</view>
+<view wx:if="{{score >=90 }}">优秀</view>
+<view wx:elif="{{ score >= 80 }}">良好</view>
+<view wx:else>及格</view>
+<view wx:if='false' hidden='false'>看我到底隐藏还是显示</view>
+
+<view class="separate">{{}}语法-----------------------------</view>
+<view>{{ age >= 18 ? 'man' : 'student'}}</view>
+<view>{{ nowTime }}</view>
+<view class="box {{isActive ? 'active' : '' }}">heiheihei</view>
+<button size="mini" bindtap="switchColor">按钮</button>
+
+<view class="separate">rpx演示-----------------------------</view>
 <text class="title">hellow world!!!</text>
 <button size="mini">按钮</button>
+
+<view class="title">haha</view>
+<view class="title2">heihei</view>
+
+

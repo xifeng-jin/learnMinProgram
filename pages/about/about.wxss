@@ -1,10 +1,25 @@
 /* pages/about/about.wxss */
 .title {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-top: 30px;
+  font-size: 32px;
+}
+.title2 {
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 64rpx;
+  background-color: red;
+  margin-top: 30px;
+}
+.separate {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.box {
   color: red;
-  font-size: 16px;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  border: 1px solid blue;
-  padding: 10px;
+}
+.active {
+  color: blue;
 }
