@@ -1,3 +1,15 @@
 <!--pages/about/about.wxml-->
+<view class="separate">自定义组件-------------------------</view>
+
+<!-- <my-cpn titles="hahaha"/>
+<my-cpn titles='heiheihei'/> -->
+
+<view class="separate">自定义组件-------------------------</view>
+<view>计数：{{counter}}</view>
+<my-cpn titles="{{['流行','新款','精选']}}" bind:tabClick="tabClick"/>
+
+
 <text class="title">hellow world!!!</text>
 <button size="mini">按钮</button>
+
+

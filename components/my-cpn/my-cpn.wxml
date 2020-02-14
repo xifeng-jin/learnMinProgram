@@ -1,0 +1,10 @@
+<!--components/my-cpn/my-cpn.wxml-->
+<view class="tab-control">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view class="item {{currentIndex === index ? 'active' : '' }}"
+    data-index="{{index}}"
+    bindtap="hadleItemClick">
+      <text class="text">{{item}}</text>
+    </view>
+  </block>
+</view>
