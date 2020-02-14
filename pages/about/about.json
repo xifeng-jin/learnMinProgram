@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-sel": "/components/my-sel/me-sel",
+    "my-slot": "/components/my-slot/my-slot"
+  }
 }

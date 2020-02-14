@@ -14,7 +14,12 @@ Page({
   onLoad: function (options) {
 
   },
-
+  handleIncrement() {
+    //1.获取#sel组件对象
+    var my_sel = this.selectComponent("#sel")
+    //2.修改组件数据内容
+    my_sel.incrementNum(20)
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

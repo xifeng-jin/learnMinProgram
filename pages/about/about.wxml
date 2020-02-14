@@ -1,3 +1,23 @@
 <!--pages/about/about.wxml-->
+<view class="separate">many slots learning ---------------------</view>
+  <my-slot>
+    <view slot="foot">I am headLine</view>
+  </my-slot>
+<view class="separate">slot learning ---------------------</view>
+<!-- <my-slot>
+  <button size="mini">按钮</button>
+</my-slot>
+<my-slot>
+  <view>我是第二次插槽使用</view>
+</my-slot>
+<my-slot>
+  <slider value="60"></slider>
+</my-slot> -->
+
+<view class="separate">component learning ---------------------</view>
+<my-sel id="sel"/>
+<button size="mini" bind:tap="handleIncrement">revice cpm</button>
+
+<view class="separate">----------------------------------------------</view>
 <text class="title">hellow world!!!</text>
 <button size="mini">按钮</button>

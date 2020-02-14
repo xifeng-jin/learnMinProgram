@@ -1,0 +1,9 @@
+<!--components/my-slot/my-slot.wxml-->
+
+<!-- <view>I am head</view>
+<slot />
+<view>I am foot</view> -->
+
+<view class="title"><slot name="title"/></view>
+<view class="content"><slot name="content"/></view>
+<view class="foot"><slot name="foot"/></view>

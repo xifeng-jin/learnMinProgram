@@ -1,0 +1,10 @@
+/* components/my-slot/my-slot.wxss */
+.title {
+  color: red;
+}
+.content {
+  color: yellow;
+}
+.foot {
+  color: orange;
+}
