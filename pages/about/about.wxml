@@ -1,3 +1,7 @@
 <!--pages/about/about.wxml-->
+<view class="separate">系统API学习----------------------------------</view>
+<button size="mini" bind:tap="handleAction">切换</button>
+<button size="mini" open-type="share">分享按钮</button>
+<view class="separate">初始化----------------------------------</view>
 <text class="title">hellow world!!!</text>
 <button size="mini">按钮</button>

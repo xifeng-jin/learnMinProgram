@@ -1,1 +1,4 @@
 /* pages/home/home.wxss */
+.separate {
+  margin: 20px 0;
+}

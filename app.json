@@ -1,6 +1,19 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/about/about",
-    "pages/home/home"
-  ]
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text" : "about"
+      }
+    ]
+  }
 }

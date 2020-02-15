@@ -1,2 +1,7 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="separate">逗引测试---------------------------------</view>
+<button size="mini" bind:tap="test">Test</button>
+<view class="separate">页面跳转---------------------------------</view>
+<navigator url="/pages/detail/detail">jump to detail</navigator>
+<navigator url="/pages/about/about" open-type="switchTab">jump to tabBar</navigator>
+<view>{{title}}</view>

@@ -1,20 +1,13 @@
-// pages/home/home.js
+// pages/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:' hahaha'
+
   },
-  test() {
-    var num = 101
-    var final = []
-    for (var i = 0 ; i < num ; i ++ ) {
-      final.push(((i * 2 + 4) / 2) - i + 5)
-    }
-    console.log(final)
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -47,7 +40,14 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    //获取活动页面
+    const pages = getCurrentPages();
+    //获取home界面
+    const home = pages[pages.length - 2];
+    home.setData({
+      title: 'hehe'
+    })
+    console.log(pages)
   },
 
   /**

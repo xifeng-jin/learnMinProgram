@@ -1,4 +1,5 @@
 // pages/about/about.js
+import request from '../../service/network.js'
 Page({
 
   /**
@@ -12,7 +13,44 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    //1.原生发送网络请求
+    this.get_data_origin();
+    //2.使用reques
+    request({
+      url: 'http://123.207.32.32:8000/api/hy/recommend'
+    }).then(res => {
+      console.log(res)
+    }).catch(err => {
+      console.log(err)
+    })
+  },
+  get_data_origin() {
+    wx.request({
+      // url: 'http://123.207.32.32:8000/api/hy/recommend',
+      // url: 'http://httpbin.org/post',
+      // success: function (res) {
+      //   console.log(res)
+      // },
+      // method: 'post',
+      // data: {
+      //   x: 'haha',
+      //   y: 'heihei'
+      // }
+    })
+  },
+  handleAction() {
+    wx.showActionSheet({
+      itemList: ['haha','hehehe','heiheihei'],
+      success: function(res) {
+        console.log(res)
+      }
+    })
+  },
+  onShareAppMessage: function(options) {
+    return {
+      'title': '是男人就来床100关',
+      'path': '/pages/about/about'
+    }
   },
 
   /**
