@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 1.展示轮播图 -->
+<z-swiper list="{{banners}}"/>
+<!-- 2.展示推荐信息 -->
+<z-recommend recommends="{{recommends}}" bind:imgLoad="imgLoad1"/>
+<!-- 3.展示本周流行 -->
+<z-popular/>
+<!-- 4.tab-bar -->
+<z-tabBar titles="{{titles}}" bind:itemClick="itemClick" class="tab-bar"/>
+<view hidden="{{!isShowTab}}" class="fixed">
+  <z-tabBar titles="{{titles}}" bind:itemClick="itemClick" class="tab-bar-temp"/>
+</view>
+<!-- 这里只能使用hidden，因为wx:if在初始情况下是不渲染的 -->
+
+<!-- 5.商品展示 -->
+<z-goods goods="{{goods[currentType].list}}"/>
+<!-- 6.返回顶部 -->
+<z-backToTop wx:if="{{isShowBack}}"/>
+<view class="separate">----------------------------------------</view>

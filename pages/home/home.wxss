@@ -1,1 +1,13 @@
 /* pages/home/home.wxss */
+.separate {
+  margin-top: 100px;
+  position: relative;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin-bottom: 10px;
+}

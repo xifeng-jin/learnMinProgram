@@ -1,0 +1,19 @@
+/* pages/home/Childcpm/z-recommend/z-recommend.wxss */
+.recommends {
+  display: flex;
+  margin: 15px 0;
+  padding-bottom: 25px;
+  border-bottom: 8px solid #eee;
+}
+.recommends-item {
+  flex: 1;
+  text-align: center
+}
+.recommends-item image {
+  height: 160rpx;
+  width: 160rpx;
+}
+.recommends-item view {
+  font-size: 32rpx;
+  color: #666
+}

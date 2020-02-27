@@ -1,0 +1,16 @@
+<!--pages/profile/profileComp/z-profile-info/z-profile-info.wxml-->
+<view class="pro-info">
+  <view class="one">
+    <image src="/assets/images/profile/message.png"></image>
+    <text>我的消息</text>
+  </view>
+  <view class="two">
+    <image src="/assets/images/profile/pointer.png"></image>
+    <text>积分商城</text>
+  </view>
+  <view class="three">
+    <image src="/assets/images/profile/vip.png"></image>
+    <text>会员卡</text>
+  </view>
+  
+</view>

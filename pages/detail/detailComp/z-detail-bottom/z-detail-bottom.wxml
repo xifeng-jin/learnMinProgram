@@ -1,0 +1,21 @@
+<!--pages/detail/detailComp/z-detail-bottom/z-detail-bottom.wxml-->
+<view class="detail-bottom">
+  <view class="left">
+    <view class="one">
+      <image src="/assets/images/detail/service.png" mode="widthFix"></image>
+      <view>客服</view>
+    </view>
+    <view class="two">
+      <image src="/assets/images/detail/shop.png"></image>
+      <view>店铺</view>
+    </view>
+    <view class="three">
+      <image src="/assets/images/detail/collect.png"></image>
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class="right">
+    <text>加入购物车</text>
+    <text>购买</text>
+  </view>
+</view>

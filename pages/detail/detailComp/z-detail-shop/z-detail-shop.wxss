@@ -1,0 +1,77 @@
+/* pages/detail/detailComp/z-detail-shop/z-detail-shop.wxss */
+.detail-shop {
+  padding: 20px 2px;
+  border-bottom: 6px solid #eee;
+}
+.head image {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.head text {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #444;
+}
+.content {
+  width: 100%;
+  padding: 20px 0 30px;
+  position: relative;
+}
+.con-left {
+  display: flex;
+  width: 38%;
+}
+.con-left> .left , .con-left>.right {
+  flex: 1;
+}
+.con-left> .left {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #444;
+}
+.con-left>.left > .total , .con-left>.right > .total{
+  font-size: 12px;
+  margin: 10px;
+}
+.con-left>.right {
+  font-size: 20px;
+  color: #444;
+  margin-left: 20px;
+  text-align: center;
+}
+.con-left>.right > .total {
+  margin: 10px -14px;
+}
+.con-right {
+  display: flex;
+  width: 54%;
+  position: absolute;
+  right: -30px;
+  top: 28px;
+  color: #444;
+  font-size: 12px;
+}
+.con-right>.left,.con-right>.mid,.con-right>.right {
+  flex: 1
+}
+.con-right>.mid {
+  text-align: center;
+}
+
+
+
+.foot .fo-nav {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 94px;
+}
+.active {
+  color: #ff5777;
+}
+.deactive {
+  color: greenyellow;
+}

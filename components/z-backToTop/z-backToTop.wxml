@@ -1,0 +1,4 @@
+<!--components/z-backToTop/z-backToTop.wxml-->
+<view class="back back2" bind:tap="backToTop">
+  <image src="/assets/images/common/top.png"></image>
+</view>

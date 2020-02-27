@@ -1,0 +1,27 @@
+/* pages/profile/profileComp/z-profile-other/z-profile-other.wxss */
+.pro-other {
+  width: 100%;
+  /* border-bottom: 10px solid #eee; */
+  position: relative;
+}
+.pro-other .one , .pro-other .two {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0 10px 15px;
+}
+.pro-other .one image, .pro-other .two image {
+  width: 17px;
+  height: 17px;
+}
+.pro-other .one text, .pro-other .two text   {
+  font-size: 17px;
+  color: #444;
+  position: absolute;
+  left: 38px;
+}
+.pro-other .one text {
+   top: 12px;
+}
+.pro-other .two text {
+  top: 58px;
+}

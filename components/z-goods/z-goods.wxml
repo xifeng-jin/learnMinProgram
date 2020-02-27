@@ -1,0 +1,6 @@
+<!--components/z-goods/z-goods.wxml-->
+<view class="goods">
+  <block wx:for="{{goods}}" wx:key="index">
+    <z-goodsItem item="{{item}}" class="item"/>
+  </block>
+</view>

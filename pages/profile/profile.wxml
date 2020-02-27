@@ -1,0 +1,13 @@
+<!--pages/profile/profile.wxml-->
+<!-- 1.显示头像 -->
+<z-profile-head/>
+<!-- 2.显示展示列表 -->
+<z-profile-options/>
+<!-- 3.显示消息 -->
+<z-profile-info/>
+
+<!-- 4.显示其它选项 -->
+<view class="other" >
+  <z-profile-other bindtap="other" animate="{{ani}}"/>
+</view>
+

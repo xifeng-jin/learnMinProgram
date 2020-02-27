@@ -1,0 +1,10 @@
+/* pages/detail/detail.wxss */
+.revise-swiper1 {
+  height: 300px;
+}
+.separate {
+  margin-top: 100px;
+}
+.back {
+  margin: 0 0 49px;
+}

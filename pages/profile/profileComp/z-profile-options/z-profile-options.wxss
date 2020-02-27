@@ -1,0 +1,36 @@
+/* pages/profile/profileComp/z-profile-options/z-profile-options.wxss */
+.pro-options {
+  width: 100%;
+  height: 80px;
+  background: white;
+  position: relative;
+  border-bottom: 15px solid #eee;
+}
+.pro-options .left ,.pro-options .mid, .pro-options .right{
+  width: 33%;
+  text-align: center;
+  padding: 20px 0;
+}
+.pro-options .left,.pro-options .mid {
+  border-right: 1px solid #eee
+}
+.pro-options .left view:nth-child(1) text ,.pro-options .mid view:nth-child(1) text,.pro-options .right view:nth-child(1) text{
+  color: red;
+  font-weight: 800;
+  font-size: 18px
+}
+.pro-options .left view:nth-child(2),.pro-options .mid view:nth-child(2) text,.pro-options .right view:nth-child(2) text {
+  color: #333;
+  font-size: 16px;
+}
+.pro-options .mid , .pro-options .right {
+  position: absolute;
+}
+.pro-options .mid {
+  top: 0;
+  left: 107px;
+}
+.pro-options .right {
+  right: 0;
+  top: 0;
+}

@@ -1,0 +1,6 @@
+<!--pages/detail/detailComp/z-detail-wearEffect/z-detail-wearEffect.wxml-->
+<view class="wear-effect">
+  <block wx:for="{{wearImg}}" wx:key="index">
+    <image src="{{item}}" mode="widthFix"></image>
+  </block>
+</view>

@@ -1,4 +1,8 @@
-// pages/about/about.js
+// pages/category/category.js
+import {
+  getDetailData
+} from "../../utils/category.js"
+
 Page({
 
   /**
@@ -12,7 +16,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    getDetailData().then(res => {
+      console.log(res)
+    })
   },
 
   /**

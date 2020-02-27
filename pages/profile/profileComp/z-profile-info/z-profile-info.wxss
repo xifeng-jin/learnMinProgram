@@ -1,0 +1,31 @@
+/* pages/profile/profileComp/z-profile-info/z-profile-info.wxss */
+.pro-info {
+  width: 100%;
+  border-bottom: 10px solid #eee;
+  position: relative;
+}
+.pro-info .one , .pro-info .two , .pro-info .three{
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0 10px 15px;
+}
+.pro-info .one image, .pro-info .two image , .pro-info .three image {
+  width: 17px;
+  height: 17px;
+}
+.pro-info .one text, .pro-info .two text , .pro-info .three text  {
+  font-size: 17px;
+  color: #444;
+  position: absolute;
+  left: 38px;
+}
+
+.pro-info .one text {
+   top: 12px;
+}
+.pro-info .two text {
+  top: 58px;
+}
+.pro-info .three text {
+  top: 105px;
+}

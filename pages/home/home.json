@@ -1,3 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "z-swiper": "/components/z-swiper/z-swiper",
+    "z-tabBa": "/components/z-tabBar/z-tabBar",
+    "z-goods": "/components/z-goods/z-goods",
+    "z-backToTop": "/components/z-backToTop/z-backToTop",
+    
+    "z-recommend": "./Childcpm/z-recommend/z-recommend",
+    "z-popular": "./Childcpm/z-popular/z-popular"
+  } ,
+  "navigationBarTitleText": "shopping"
 }

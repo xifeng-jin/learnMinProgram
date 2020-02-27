@@ -1,0 +1,12 @@
+<!--pages/card/cardComp/z-cart-bottom/z-cart-bottom.wxml-->
+<view class="card-bottom">
+  <view class="left">
+    <view class="icon" bind:tap="selectAll">
+      <icon size="22" type="success" wx:if="{{checked}}" color="red"></icon>
+       <icon size="22" type="success" wx:if="{{!checked}}"></icon>
+      <text class="all">全选</text>
+    </view>
+    <view class="total">总计：{{price}}</view>
+  </view>
+  <view class="right">去计算({{counter}})</view>
+</view>

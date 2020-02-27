@@ -1,0 +1,7 @@
+<!--pages/detail/detailComp/z-detail-introduce/z-detail-introduce.wxml-->
+<view class="introduce">
+  <view class="top"></view>
+  <view class="content">{{introduce}}</view>
+  <view class="bottom"></view>
+  <view class="tip">穿着效果</view>
+</view>

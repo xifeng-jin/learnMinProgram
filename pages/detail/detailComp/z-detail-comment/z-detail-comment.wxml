@@ -1,0 +1,18 @@
+<!--pages/detail/detailComp/z-detail-comment/z-detail-comment.wxml-->
+<view class="comment">
+  <view class="top">
+    <text>用户评价</text>
+    <text>更多>></text>
+  </view>
+  <block wx:for="{{detailComment}}" wx:key="index">
+    <view class="content">
+      <image src="{{item.user.avatar}}" mode="widthFix"></image>
+      <text class="uname">{{item.user.uname}}</text>
+      <view class="text">{{item.content}}</view>
+      <view class="tip">
+        <text>{{item.created}}</text>
+        <text>{{item.style}}</text>
+      </view>
+    </view>
+  </block>
+</view>

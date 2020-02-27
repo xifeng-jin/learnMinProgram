@@ -1,0 +1,31 @@
+<!--pages/detail/detailComp/z-detail-title/z-detail-title.wxml-->
+<view class="detail-title">
+  <view class="top">
+    <view class="title">{{informations.title}}</view>
+    <text class="newPrice">{{informations.newPrice}}</text>
+    <text class="oldPrice">{{informations.oldPrice}}</text>
+  </view>
+  <view class="middle"> 
+    <block wx:for="{{informations.detailOptions}}" wx:key="index">
+      <view class="mid-item">{{item}}</view>
+    </block>
+  </view>
+  <view class="foot">
+    <view class="fo-item">
+      <image src="{{informations.shopPromise[1].icon}}"></image>
+      <text>{{informations.shopPromise[1].name}}</text>
+    </view>
+    <view class="fo-item">
+       <image src="{{informations.shopPromise[2].icon}}"></image>
+      <text>{{informations.shopPromise[2].name}}</text>
+    </view>
+    <view class="fo-item">
+      <image src="{{informations.shopPromise[3].icon}}"></image>
+      <text>{{informations.shopPromise[3].name}}</text>
+    </view>
+    <view class="fo-item">
+       <image src="{{informations.shopPromise[4].icon}}"></image>
+      <text>{{informations.shopPromise[4].name}}</text>
+    </view>
+  </view>
+</view> 

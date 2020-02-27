@@ -1,0 +1,9 @@
+<!--pages/card/card.wxml-->
+<!-- 1.显示商品信息 -->
+<z-cart-list list="{{list}}"/>
+
+<!-- 2.显示底部 -->
+<z-cart-bottom price="{{price}}"
+              checked="{{isChecked}}"
+              bind:sellect="sellect"
+              counter="{{cartLength}}"/>

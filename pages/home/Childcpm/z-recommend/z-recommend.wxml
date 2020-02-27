@@ -1,0 +1,9 @@
+<!--pages/home/Childcpm/z-recommend/z-recommend.wxml-->
+<view class="recommends">
+  <block wx:for="{{recommends}}" wx:key="index">
+    <view class="recommends-item">
+      <image src="{{item.image}}" bind:load="imgLoad"></image>
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/detail/detail.wxml-->
+<!-- 1.展示轮播图 -->
+<z-swiper list="{{detailImg}}" revise-swiper="revise-swiper1"/>
+<!-- 2.展示商品信息 -->
+<z-detail-title informations="{{titleInfo}}"/>
+
+<!-- 3.显示店铺信息 -->
+<z-detail-shop shopInfo="{{shopInfo}}"/>
+
+<!-- 4.显示介绍信息 -->
+<z-detail-introduce introduce="{{introduce}}"/>
+
+<!-- 5.wear effect -->
+<z-detail-wearEffect wearImg="{{wearImg}}"/>
+
+<!-- 6.商品参数展示 -->
+<z-detail-params itemParams="{{itemParams}}"/>
+
+<!-- 7.评论展示 -->
+<z-detail-comment detailComment="{{detailComment}}"/>
+
+<!-- 8.推荐信息 -->
+<z-goods goods="{{detailRecommend}}"/>
+
+<!-- 9.返回顶部信息 -->
+<z-backToTop wx:if="{{isShowBack}}" back2="back"/>
+
+<!-- 10.显示底部信息 -->
+<z-detail-bottom bind:tap="addSuccess"/>
+

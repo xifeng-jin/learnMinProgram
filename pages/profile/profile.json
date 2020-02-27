@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "z-profile-head": "./profileComp/z-profile-head/z-profile-head",
+    "z-profile-options": "./profileComp/z-profile-options/z-profile-options",
+    "z-profile-info": "./profileComp/z-profile-info/z-profile-info",
+    "z-profile-other": "./profileComp/z-profile-other/z-profile-other"
+  },
+  "navigationBarTitleText": "我的信息"
+}

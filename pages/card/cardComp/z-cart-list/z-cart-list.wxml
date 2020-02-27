@@ -1,0 +1,14 @@
+<!--pages/card/cardComp/z-cart-list/z-cart-list.wxml-->
+<view class="cart-list"  wx:for="{{list}}"  wx:key="index">
+  <block>
+    <view class="icon" bind:tap="showIcon" data-index="{{index}}">
+      <icon size="22" color="red" type="success" wx:if="{{item.checked}}"></icon>
+    </view>
+    <image src="{{item.img}}"></image>
+    <view class="content">
+      <view class="title">{{item.title}}</view>
+      <text class="price">{{item.price}}</text>
+      <text class="counter">X{{item.counter}}</text>
+    </view>
+  </block>
+</view>

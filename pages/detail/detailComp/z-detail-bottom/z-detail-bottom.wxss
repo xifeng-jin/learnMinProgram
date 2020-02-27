@@ -1,0 +1,47 @@
+/* pages/detail/detailComp/z-detail-bottom/z-detail-bottom.wxss */
+.detail-bottom {
+  height: 49px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+.detail-bottom .left {
+  width: 55%;
+  display: flex;
+  height: 100%;
+}
+.left .one,.left .two,.left .three {
+  text-align: center;
+  flex: 1;
+  color: #111;
+  font-size: 15px;
+}
+.detail-bottom image {
+  width: 18px;
+  height: 18px;
+}
+ .detail-bottom .right {
+  width: 45%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.right text:nth-child(1) {
+  background: yellow;
+  color: #111;
+}
+.right text {
+  display: inline-block;
+  width: 50%;
+  line-height: 50px;
+}
+.right text:nth-child(2) {
+  background: #ff7777;
+  color: white;
+  text-align: center;
+}

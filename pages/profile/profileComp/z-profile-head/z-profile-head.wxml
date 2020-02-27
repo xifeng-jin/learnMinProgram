@@ -1,0 +1,15 @@
+<!--pages/profile/profileComp/z-profile-head/z-profile-head.wxml-->
+<view class="pro-head">
+  <view class="avatar">
+    <image src="/assets/images/profile/avatar.png" mode="widthFix"></image>
+  </view>
+  
+  <view class="mid">
+    <text class="login">登录/注册</text>
+    <view class="tip">
+      <image src="/assets/images/profile/phone.png" mode="widthFix"></image>
+      <text>暂无绑定手机号</text>
+    </view>
+  </view>
+  <image class="arrow" src="/assets/images/common/arrow-right.png"></image>
+</view>

@@ -1,0 +1,39 @@
+/* pages/card/cardComp/z-cart-bottom/z-cart-bottom.wxss */
+.card-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  background: #eee;
+  height: 37px;
+  font-size: 12px;
+}
+.card-bottom .left {
+  width: 70%;
+}
+.left .icon {
+  position: relative;
+  top: 7px;
+  left: 14px;
+}
+.left .total {
+  position: relative;
+  left: 86px;
+  bottom: 15px;
+}
+.card-bottom .right {
+  width: 26%;
+  position: relative;
+  left: 236px;
+  bottom: 42px;
+  background: orange;
+  height: 100%;
+  text-align: center;
+  line-height: 37px;
+  color: white;
+}
+.all {
+  position: relative;
+  top: -5px;
+  left: 4px;
+}

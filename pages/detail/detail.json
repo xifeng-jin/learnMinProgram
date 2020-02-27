@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "z-swiper": "/components/z-swiper/z-swiper",
+    "z-backToTop": "/components/z-backToTop/z-backToTop",
+    "z-goods": "/components/z-goods/z-goods",
+
+    
+    "z-detail-title": "./detailComp/z-detail-title/z-detail-title",
+    "z-detail-shop": "./detailComp/z-detail-shop/z-detail-shop",
+    "z-detail-introduce": "./detailComp/z-detail-introduce/z-detail-introduce",
+    "z-detail-wearEffect": "./detailComp/z-detail-wearEffect/z-detail-wearEffect",
+    "z-detail-params": "./detailComp/z-detail-params/z-detail-params",
+    "z-detail-comment": "./detailComp/z-detail-comment/z-detail-comment",
+    "z-detail-bottom": "./detailComp/z-detail-bottom/z-detail-bottom"
+  }
+}

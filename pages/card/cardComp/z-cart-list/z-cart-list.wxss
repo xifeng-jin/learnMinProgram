@@ -1,0 +1,48 @@
+/* pages/card/cardComp/z-cart-list/z-cart-list.wxss */
+.cart-list {
+  padding: 5px 1px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  position: relative;
+}
+.cart-list .icon {
+  width: 10%;
+  height: 114px;
+  line-height: 114px;
+}
+.cart-list image {
+  width: 76px;
+  height: 102px;
+  position: absolute;
+  left: 10%;
+  top: 10px;
+  border-radius: 5px;
+}
+.cart-list .content {
+  width: 60%;
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}
+.content .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 22px;
+  font-weight: 700;
+}
+.content .price {
+  color: #ff5777;
+  position: relative;
+  top: 30px;
+  left: -5px;
+
+  font-size: 19px;
+}
+.content .counter {
+  position: relative;
+  right: -92px;
+  top: 30px;
+  font-size: 15px;
+  color: #333;
+}

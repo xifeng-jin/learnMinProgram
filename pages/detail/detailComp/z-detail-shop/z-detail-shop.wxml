@@ -1,0 +1,39 @@
+<!--pages/detail/detailComp/z-detail-shop/z-detail-shop.wxml-->
+<view class="detail-shop">
+  <view class="head">
+    <image src="{{shopInfo.shopLogo}}"></image>
+    <text>{{shopInfo.shopName}}</text>
+  </view>
+  <view class="content">
+    <view class="con-left">
+      <view class="left">
+        <view class="totalSell">{{shopInfo.totalSell}}</view>
+        <view class="total">总销量</view>
+      </view>
+      <view class="right">
+        <view class="totalGoods">{{shopInfo.totalGoods}}</view>
+        <view class="total">全部宝贝</view>
+      </view>
+    </view>
+    <view class="con-right">
+      <view class="left">
+        <view wx:for="{{shopInfo.shopScore}}" wx:key="index">
+          <view>{{item.name}}</view>
+        </view>
+      </view>
+      <view class="mid">
+        <view wx:for="{{shopInfo.shopScore}}" wx:key="index">
+          <view class="{{ shopInfo.shopScore[index].isBetter ? 'active' : 'deactive'}}">{{item.score}}</view>
+        </view>
+      </view>
+      <view class="right">
+        <view class="right" wx:for="{{3}}" wx:key="index">
+          <view class="{{ shopInfo.shopScore[index].isBetter ? 'active' : 'deactive'}}">
+           {{shopInfo.shopScore[index].score >= 5 ? '高' : '低'}}
+          </view>
+        </view>
+      </view>     
+    </view>
+  </view>
+  <view class="foot"><navigator url="{{shopInfo.shopUrl}}" class="fo-nav">进店逛一逛</navigator></view>
+</view>

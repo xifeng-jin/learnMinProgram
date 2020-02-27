@@ -1,0 +1,9 @@
+/* pages/detail/detailComp/z-detail-wearEffect/z-detail-wearEffect.wxss */
+.wear-effect {
+  padding: -20px 4px 20px;
+  border-bottom: 6px solid #eee;
+  margin-top: -23px;
+}
+.wear-effect image {
+  border-radius: 5px;
+}

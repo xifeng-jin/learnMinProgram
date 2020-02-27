@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "z-cart-list": "./cardComp/z-cart-list/z-cart-list",
+    "z-cart-bottom": "./cardComp/z-cart-bottom/z-cart-bottom"
+  }
+}

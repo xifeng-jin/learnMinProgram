@@ -1,0 +1,25 @@
+/* pages/detail/detailComp/z-detail-introduce/z-detail-introduce.wxss */
+.introduce {
+
+  padding: 20px 5px;
+}
+.introduce .top,.introduce .bottom {
+  width: 74px;
+  height: 1px;
+  background: black;
+  position: relative;
+  margin: 0 3px;
+}
+.introduce .bottom {
+  float: right;
+}
+.content {
+  font-size: 14px;
+  color: #444;
+  padding: 14px 0;
+}
+.tip {
+  font-size: 16px;
+  color: #444;
+  padding: 10px 10px 20px;
+}

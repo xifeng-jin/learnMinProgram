@@ -1,0 +1,97 @@
+<!--pages/detail/detailComp/z-detail-params/z-detail-params.wxml-->
+<view class="params">
+  <view class="top">
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[0]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[1]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[2]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[3]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[4]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="one">
+      <block wx:for="{{itemParams.keyTables[5]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[0]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[1]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[2]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[3]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[4]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[5]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[6]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[7]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[8]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[9]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[10]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+    <view class="two">
+      <block wx:for="{{itemParams.keySet[11]}}" wx:key="index">
+        <view>{{item}}</view>
+      </block>
+    </view>
+  </view>
+</view>

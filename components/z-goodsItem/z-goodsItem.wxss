@@ -1,0 +1,41 @@
+/* components/z-goodsItem/z-goodsItem.wxss */
+.goods-item {
+  font-size: 14px;
+  padding-bottom: 45px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.goods-item > image {
+  width: 100%;
+  border-radius: 5px;
+}
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+}
+.content > .item-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content .item-info {
+  width: 100%;
+}
+.favor {
+  width: 18px;
+  height: 18px;
+
+  position: absolute;
+  bottom: 1px;
+  left: 80px;
+}
+.content .price {
+  margin-left: 10px;
+  color: #ff5777;
+}
+.content .cfav {
+  margin-left: 40px;
+}
+

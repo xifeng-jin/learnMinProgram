@@ -1,0 +1,11 @@
+<!--pages/profile/profileComp/z-profile-other/z-profile-other.wxml-->
+<view class="pro-other">
+  <view class="one">
+    <image src="/assets/images/profile/cart.png"></image>
+    <text>我的购物车</text>
+  </view>
+  <view class="two">
+    <image src="/assets/images/profile/app.png"></image>
+    <text>下载购物APP</text>
+  </view>
+</view>
